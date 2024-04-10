@@ -27,23 +27,23 @@ fvcore requires pytorch and python >= 3.6.
 Use one of the following ways to install:
 
 ### 1. Install from PyPI (updated nightly)
-```
+```bash
 pip install -U fvcore
 ```
 
 ### 2. Install from Anaconda Cloud (updated nightly)
 
-```
+```bash
 conda install -c fvcore -c iopath -c conda-forge fvcore
 ```
 
 ### 3. Install latest from GitHub
-```
+```bash
 pip install -U 'git+https://github.com/facebookresearch/fvcore'
 ```
 
 ### 4. Install from a local clone
-```
+```bash
 git clone https://github.com/facebookresearch/fvcore
 pip install -e fvcore
 ```
